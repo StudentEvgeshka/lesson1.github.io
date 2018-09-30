@@ -1,0 +1,82 @@
+body{background-color:#4d515e;}
+/*общий контайнер*/
+.sait{width:75%;
+		height:600px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 8px;
+		background-color: #9d9d9d;}
+/*контейнер содержания*/
+.leftcontent{width: 60%;
+		height:600px;
+		position: relative;
+		display:block;
+		float: left;
+		border-radius: 8px 0 0 8px;
+		background-color: #9d9d9d;}
+.levayatop {width: 100%;
+		height:500px;
+		position: relative;
+		display:block;
+		float: left;
+		border-radius: 8px 0 0 0;
+		background-color: #ffffff;}
+.levayabottom {width: 100%;
+	margin-top:1px;
+		height:99px;
+		position: relative;
+		display:block;
+		float: left;
+		border-radius: 0 0 0 8px;
+		background-color: #ffffff;}
+/*контейнер изображения*/
+.pravaya{width: 40%;
+		height:100%;
+		position: relative;
+		display:block;
+		float: right;
+		background: #ffffff url(img/fon.jpg)  no-repeat;
+		background-position: left;
+		background-size: auto 100%;
+		border-radius: 0 8px 8px 0;
+		overflow: hidden}
+/*вспомогательные контейнеры*/
+.osnova{position: relative;
+		display:block;
+		float: left;
+		width:80%;
+		height:80%;
+		margin-top:50px;
+		margin-left: 50px;
+		background-color: #ffffff;
+		border: 0px solid #757575;
+		color: #757575;
+		font-family: 'Scada', sans-serif;}
+.osnova h1{font-size: 25pt; font-weight: normal; color: #525252;}
+.osnova .line1 {text-transform:uppercase; font-size: 9pt; font-weight: bold;}
+.osnova p{font-size: 7pt; color: #757575;}
+.osnova span {padding-top:50px;}
+.osnova a {list-style:none;
+					float:left; 
+					height:50px; 
+					width:350px;
+					border-radius: 5px;
+					background-color: #ffffff;
+					border: 1px solid #757575;
+					padding-top:20px;
+					margin-top:15px; 
+					font-weight: bold;	
+					text-align:center; 	
+					position:relative;
+					text-decoration: none;
+					color: #757575;
+					font-family: 'Scada', sans-serif;}
+.levayabottom p{margin-top: 40px;
+				text-align: center;
+				color: #757575;font-size:10pt;
+				font-family: 'Scada', sans-serif;}
+.levayabottom p a {text-transform:uppercase; color:#118806; font-weight: bold; text-decoration: none;}
+.osnova  a:hover{-webkit-box-shadow: -3px 4px 9px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 4px 9px 1px rgba(0,0,0,0.75);
+box-shadow: -3px 4px 9px 1px rgba(0,0,0,0.75);};
