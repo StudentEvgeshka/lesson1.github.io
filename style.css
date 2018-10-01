@@ -37,7 +37,7 @@ body{background-color:#4d515e;}
 		display:block;
 		float: right;
 		background: #ffffff url(img/fon.jpg)  no-repeat;
-		background-position: left;
+		background-position: -200px 0px;
 		background-size: auto 100%;
 		border-radius: 0 8px 8px 0;
 		overflow: hidden}
